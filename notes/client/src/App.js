@@ -1,7 +1,7 @@
-
-
+import React from 'react'
 import './App.css';
 import Header from './components/Header'
+import NotesListPage from './pages/NotesListPage'
 
 function App() {
   return (
@@ -9,7 +9,7 @@ function App() {
       <div className="container dark">
         <div className="app">
           <Header />
-          My APP
+          <NotesListPage />
         </div>
       </div>
    
@@ -17,4 +17,7 @@ function App() {
 }
 
 export default App;
+
+
+
 
